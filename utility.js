@@ -21,6 +21,12 @@ function removeBackgroundColorById(elementId) {
 
 }
 
+function getElementTextById(elementId) {
+  const element = document.getElementById(elementId);
+  const text = element.innerText;
+  return text;
+}
+
 function getRandomAlphabet() {
   // get or create an alphabet array
   const alphabetString = 'abcdefghijklmnopqrstuvwxyz';
